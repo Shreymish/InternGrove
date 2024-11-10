@@ -1,18 +1,1 @@
-def activity_suggestion(weather, mood):
-    if weather == "sunny":
-        if mood == "energetic":
-            return "Go for a hike."
-        else:
-            return "Relax in the park."
-    else:
-        if mood == "creative":
-            return "Paint or write at home."
-        else:
-            return "Watch a movie."
 
-# Example usage
-weather = input("Is it sunny or rainy? ").strip().lower()
-mood = input("Are you feeling energetic or creative? ").strip().lower()
-
-suggestion = activity_suggestion(weather, mood)
-print("Suggested activity:", suggestion)
