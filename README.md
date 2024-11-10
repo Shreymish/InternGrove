@@ -32,7 +32,7 @@ Clone the repository to explore the code for each project. Each project is locat
 
 bash
 Copy code
-git clone https://github.com/yourusername/ai-projects-collection.git
+
 cd ai-projects-collection
 Requirements
 Each project requires Python 3.x to run. Any additional requirements are noted in the project folders.
